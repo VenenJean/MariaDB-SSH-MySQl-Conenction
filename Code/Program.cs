@@ -8,7 +8,9 @@ class Program {
 
         // Example how to run a command
         using(MySqlCommand cmd = new()) {
-            cmd.CommandText = $"INSERT INTO Table (Column1, Column2) VALUES ('Value1', 'Value2');";
+            cmd.CommandText = "INSERT INTO Table (Column1, Column2) VALUES ('@value1name', '@value2name');";
+            cmd.Parameters.AddWithValue("@value1name", "value1");
+            cmd.Parameters.AddWithValue("@value2name", "value2");
             cmd.Connection = connection;
             cmd.ExecuteNonQuery();
         }
