@@ -3,7 +3,7 @@ using Renci.SshNet;
 using System.Collections.Specialized;
 using System.Configuration;
 
-namespace MariaDB {
+namespace MariaDB.Code {
     internal class MariaDB {
         private static readonly NameValueCollection AS = ConfigurationManager.AppSettings;
 

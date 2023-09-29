@@ -1,5 +1,5 @@
 ﻿using MySqlConnector;
-using static MariaDB.MariaDB;
+using static MariaDB.Code.MariaDB;
 
 class Program {
     static void Main() {
