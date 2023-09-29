@@ -7,4 +7,4 @@ Code for connecting to a MariaDB server through a SSH tunnel via Username &amp; 
 `System.Configuration.ConfigurationManager v7.0.0` -> Loading required data for the connections <br>
 
 ## Presetings
-Edited `App.config` keys to your corresponding values.
+Edit `App.config` keys to your corresponding values.
