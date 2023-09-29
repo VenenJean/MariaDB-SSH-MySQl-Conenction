@@ -8,6 +8,7 @@ class Program {
 
         // Example how to run a command
         using(MySqlCommand cmd = new()) {
+            // Never insert values directly to prevent SQL injections!!!
             cmd.CommandText = "INSERT INTO Table (Column1, Column2) VALUES ('@value1name', '@value2name');";
             cmd.Parameters.AddWithValue("@value1name", "value1");
             cmd.Parameters.AddWithValue("@value2name", "value2");
