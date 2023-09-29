@@ -1,0 +1,61 @@
+# Compiled binary files
+*.exe
+*.dll
+*.pdb
+*.obj
+*.resx
+*.cache
+*.suo
+*.user
+*.bak
+
+# Visual Studio files
+.vscode/
+.vs/
+bin/
+obj/
+Debug/
+Release/
+ipch/
+objd/
+[Bb]in
+[Dd]ebug
+[Rr]elease
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+
+# NuGet
+packages/
+*.nupkg
+**/project.lock.json
+**/project.fragment.lock.json
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
